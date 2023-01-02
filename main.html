@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <body>
+    <!-- the entire body must be written by student -->
+    <div class="container my-cont">
+      <div class="row my-row">
+        <div
+          class="col-md-4 col-sm-6 border border-dark mycol r1c1"
+          style="height: 200px"
+        >
+          Row1 col1
+        </div>
+        <div class="col-md-8 col-sm-6 mycol r1c2">Row1 col2</div>
+      </div>
+      <div class="row my-row justify-content-between">
+        <div
+          class="col-md-4 offset-md-2 border border-dark mycol r2c1"
+          style="height: 200px"
+        >
+          Row2 col1
+        </div>
+        <div class="col-md-4 border border-dark mycol r2c2">Row2 col2</div>
+      </div>
+      <div class="row my-row justify-content-center">
+        <div
+          class="col-md-4 col-sm-6 border border-dark mycol r3c1"
+          style="height: 200px"
+        >
+          Row3 col1
+        </div>
+        <div class="col-md-4 col-sm-6 border border-dark mycol r3c2">
+          Row3 col2
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>

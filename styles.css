@@ -1,2 +1,27 @@
-
 /* Your CSS Code here. */
+html {
+  margin-top: 10px;
+}
+
+.my-row {
+  border: 5px solid pink;
+  background-color: rgb(38, 7, 7);
+}
+.r1c1 {
+  background-color: teal;
+}
+.r1c2 {
+  background-color: lightblue;
+}
+.r2c1 {
+  background-color: tomato;
+}
+.r2c2 {
+  background-color: cyan;
+}
+.r3c1 {
+  background-color: palegreen;
+}
+.r3c2 {
+  background-color: greenyellow;
+}
